@@ -17,7 +17,6 @@ public class BookAllocation{
         return true;
     }
     public static int findPages(int arr[] , int n){
-        //max = 10   ;   min = 0
         int max = 0;
         if(arr.length<n) return -1;
         int result = 0;
@@ -46,4 +45,5 @@ public class BookAllocation{
         int ans = findPages(pages , m );
         System.out.println("Minimum Pages  : "+ans);
     }
+
 }
